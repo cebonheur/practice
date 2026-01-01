@@ -35,3 +35,8 @@ More questions can be added by copying the template folder and dropping in the t
 - **Advanced Logging**:
     - **Dynamic History**: Unique log filenames with timestamps (e.g., `setup_all_YYYYMMDD_HHMMSS.log`) to preserve execution history.
     - **Internal Traceability**: Every log line is prefixed with execution timestamps via a new `log_msg` system.
+
+---
+
+## Best Practice: Lab Cleanup and Restart.
+For the most realistic CKA practice session, it is highly recommended to **re-initialize your environment** (e.g., spin up a new Killercoda instance or reset your VMs) between major laboratory sessions. While the `Cleanup.bash` scripts are useful for quick pivots, a full cluster reset is the only way to ensure 100% thoroughness, especially for cluster-scoped resources. In the words of the Mandalorian, "This is the way."
